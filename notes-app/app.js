@@ -1,3 +1,3 @@
 const fs = require('fs');
 
-fs.appendFileSync('notes.txt', 'This file was created by Node.js');
+fs.appendFileSync('notes.txt', 'This line was added by fs.appendFileSync in app.js');
